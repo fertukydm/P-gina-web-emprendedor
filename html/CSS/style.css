@@ -31,14 +31,15 @@ h1{
 
 }
 header{
-    border: 3px solid rgb(255, 255, 255);
-    background: #000000;
+    border: 3px solid rgb(0, 0, 0);
+    background: #5f5353;
     margin: 2px;
     padding: 2px;
 
-    display: flexbox;
+    display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    text-align:justify;
     align-items: center;
     position:static;
     top: 0;
@@ -46,7 +47,7 @@ header{
 }
 header img{
     width: 10%;
-    height: 70%;
+    height: 30%;
     margin: 2px;
 }
 nav a{
@@ -71,7 +72,7 @@ nav a:hover{
     width: 100%;
     max-width: 1200px;
     background: #fff;
-    margin: 5px;
+    margin: 3px;
     font-size: 20px;
 
     display: flex;
@@ -86,13 +87,18 @@ nav a:hover{
 }
 
 .contenedor3{
-    border: 5px solid #D7CFC2;
-    width: 90%;
-    max-width: 1200px;
-    background: #D7CFC2;
-    margin: 2px auto;
-    padding: 1%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 10px;
-    color: rgb(32, 32, 32);
-}
+        border: 5px solid #D7CFC2;
+        width: 90%;
+        max-width: 1200px;
+        background: #D7CFC2;
+        margin: 2px auto;
+        padding: 2px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 10px;
+        color: rgb(32, 32, 32);
+    
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+
