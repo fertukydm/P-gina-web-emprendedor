@@ -30,7 +30,7 @@ h1{
 }
 header{
     border: 3px solid rgb(0, 0, 0);
-    background: #5f5353;
+    background: #343333;
     margin: 2px;
     padding: 2px;
 
@@ -45,7 +45,7 @@ header{
 }
 header img{
     width: 10%;
-    height: 30%;
+    height: 10%;
     margin: 2px;
 }
 nav a{
